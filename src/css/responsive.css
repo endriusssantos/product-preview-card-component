@@ -1,0 +1,39 @@
+@media (max-width: 425px) {
+    .container .card {
+        max-width: 90%;
+        height: 75%;
+        background-image: url(../images/image-product-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .container .card .content {
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 0 0 20px;
+    }
+
+    .container .card .content .text {
+        margin: 285px 0 0 0;
+    }
+
+    .container .card .content .text .product {
+        padding: 0;
+    }
+
+    .container .card .content .text .title {
+        width: 300px;
+        padding: 10px 0;
+    }
+
+    .container .card .content .text .description {
+        width: 290px;
+        padding: 0 0 20px 0;
+    }
+
+    .container .card .content .text .button .btn {
+        margin: 0;
+        width: 100%;
+    }
+}
